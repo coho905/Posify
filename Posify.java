@@ -10,10 +10,10 @@ public class Posify {
 
         HashMap<String, HashMap<String, Double>> wordCount = new HashMap<>(); // stores words and their values associated with a Tag
         HashMap<String, HashMap<String, Double>> transitionCount = new HashMap<>(); // stores transition ratios between tags
-        train(transitionCount, wordCount, "PS5/brown-train-sentences.txt", "PS5/brown-train-tags.txt"); //trains a HMM on the brown train and test
+        train(transitionCount, wordCount, "Posify/brown-train-sentences.txt", "Posify/brown-train-tags.txt"); //trains a HMM on the brown train and test
         consoleTesting(transitionCount, wordCount); // Allows for user to enter in a sentence and have it POS tagged via Viterbi
         //System.out.println();
-        //fileTesting(transitionCount, wordCount, "PS5/simple-test-sentences.txt", "PS5/simple-test-tags.txt"); // POS tags sentences in the two via Viterbi
+        //fileTesting(transitionCount, wordCount, "Posify/simple-test-sentences.txt", "Posify/simple-test-tags.txt"); // POS tags sentences in the two via Viterbi
         //System.out.println();
         //stringTesting(transitionCount, wordCount, "I hate red apples and I cannot lie ."); // Tests this fixed sentence by tagging via Viterbi
         //stringTesting(transitionCount, wordCount, "I love my roommate ."); // Tests this fixed sentence by tagging via Viterbi
