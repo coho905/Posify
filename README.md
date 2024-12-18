@@ -29,28 +29,28 @@
 + Let me know if there are any unexpected errors.
 + Feel free to make pull requests.
 
-## Supported
-Tag	Meaning			Examples
----	-------			--------
-</br>
-ADJ	adjective		new, good, high, special, big, local</br>
-ADV	adverb			really, already, still, early, now</br>
-CNJ	conjunction		and, or, but, if, while, although</br>
-DET	determiner		the, a, some, most, every, no</br>
-EX	existential		there, there's</br>
-FW	foreign word		dolce, ersatz, esprit, quo, maitre</br>
-MOD	modal verb		will, can, would, may, must, should</br>
-N	noun			year, home, costs, time, education</br>
-NP	proper noun		Alison, Africa, April, Washington</br>
-NUM	number			twenty-four, fourth, 1991, 14:24</br>
-PRO	pronoun			he, their, her, its, my, I, us</br>
-P	preposition		on, of, at, with, by, into, under</br>
-TO	the word to		to</br>
-UH	interjection		ah, bang, ha, whee, hmpf, oops</br>
-V	verb			is, has, get, do, make, see, run</br>
-VD	past tense		said, took, told, made, asked</br>
-VG	present participle	making, going, playing, working</br>
-VN	past participle		given, taken, begun, sung</br>
-WH	wh determiner		who, which, when, what, where, how</br>
+## Supported Part-of-Speech (POS) Tags
+
+| Tag  | Meaning               | Examples                                    |
+|------|-----------------------|---------------------------------------------|
+| ADJ  | adjective             | new, good, high, special, big, local       |
+| ADV  | adverb                | really, already, still, early, now         |
+| CNJ  | conjunction           | and, or, but, if, while, although          |
+| DET  | determiner            | the, a, some, most, every, no              |
+| EX   | existential           | there, there's                             |
+| FW   | foreign word          | dolce, ersatz, esprit, quo, maitre         |
+| MOD  | modal verb            | will, can, would, may, must, should        |
+| N    | noun                  | year, home, costs, time, education         |
+| NP   | proper noun           | Alison, Africa, April, Washington          |
+| NUM  | number                | twenty-four, fourth, 1991, 14:24           |
+| PRO  | pronoun               | he, their, her, its, my, I, us             |
+| P    | preposition           | on, of, at, with, by, into, under          |
+| TO   | the word "to"         | to                                         |
+| UH   | interjection          | ah, bang, ha, whee, hmpf, oops             |
+| V    | verb                  | is, has, get, do, make, see, run           |
+| VD   | past tense            | said, took, told, made, asked              |
+| VG   | present participle    | making, going, playing, working            |
+| VN   | past participle       | given, taken, begun, sung                  |
+| WH   | wh determiner         | who, which, when, what, where, how         |
 
 Education-Restricted License 2024, Colin Wolfe 
