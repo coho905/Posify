@@ -29,3 +29,4 @@
 + Let me know if there are any unexpected errors.
 + Feel free to make pull requests.
 
+Education-Restricted License 2024, Colin Wolfe 
